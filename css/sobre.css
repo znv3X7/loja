@@ -1,32 +1,54 @@
 p {
-color:blue;
-background-color: yellow;    
+    color: blue;
+    background-color: yellow;
 }
+
 h1 {
-font-family: serif;
+    font-family: serif;
 }
+
 h2 {
-font-family: sans-serif;
+    font-family: sans-serif;
 }
+
 p {
     font-family: monospace;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 p {
     text-align: justify;
 }
+
 p {
-   line-height: 16px;
-   letter-spacing: 2px;
-   word-spacing: 5px;
-   text-indent: 30px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-indent: 30px;
 }
+
 h1 {
-    background-image: url(sobre-background.jpg);
+    background-image: url(../img/sobre-background.jpg);
 }
-body{
+
+h2 {
+    border-bottom: 2px solid #333333;
+}
+
+body {
     color: #333333;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande',  sans-serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+figure {
+    background-color: #f0f2ed;
+    border: 1px dotted #ccc;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
 }
