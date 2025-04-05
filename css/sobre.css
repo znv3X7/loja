@@ -1,5 +1,3 @@
-
-
 h1 {
   font-family: serif;
 }
@@ -55,62 +53,137 @@ p {
 }
 
 p {
- /*  background-color: red;         
+  /*  background-color: red;         
   height: 300px; */
 }
-  h1 {
-    padding: 10px;
-  }
-  h2 {
-    margin-top: 30px;
-  }
-  p {
-    padding:0 45px;
-    text-indent: 15px;
-  }
-  figure {
-    padding: 15px;
-    margin: 30px;
-  }
-  figcaption{
-    margin-top: 10px;
-  }
-  body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 940px;
-  }
- #centro-distribuicao{
+h1 {
+  padding: 10px;
+}
+h2 {
+  margin-top: 30px;
+}
+p {
+  padding: 0 45px;
+  text-indent: 15px;
+}
+figure {
+  padding: 15px;
+  margin: 30px;
+}
+figcaption {
+  margin-top: 10px;
+}
+body {
   margin-left: auto;
-margin-right: auto;
-width: 550px;
- }
- #ropade {
-  color: #777;
-  margin: 30px 0;
-  padding: 30px 0;
- }
- #rodape img{
-  margin-right: 30px;
-  vertical-align: middle;
-  width: 94px;
- }
- #familha-pelho {
-  float: right;
-  margin: 0 0 10px 10px;
- }
- #centro-distribuicao {
+  margin-right: auto;
+  width: 940px;
+}
+#centro-distribuicao {
   margin-left: auto;
   margin-right: auto;
   width: 550px;
+}
+#ropade {
+  color: #777;
+  margin: 30px 0;
+  padding: 30px 0;
+}
+#rodape img {
+  margin-right: 30px;
+  vertical-align: middle;
+  width: 94px;
+}
+#familha-pelho {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+#centro-distribuicao {
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+#rodape {
+  color: #777;
+  margin: 30px 0;
+  padding: 30px 0;
+}
+#rodape img {
+  margin-right: 30px;
+  vertical-align: middle;
+  width: 94px;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.sacola {
+  background-image: url(../img/sacola.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-size: 14px;
+  padding-right: 35px;
+  text-align: right;
+  width: 140px;
+}
+.menu-opcoes ul {
+  font-size: 15px;
+}
+.menu-opcoes a {
+  color: #003366;
+}
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.menu-opcoes ul li {
+  display: inline;
+  margin-left: 20px;
+}
+.sacola {
+  padding-top: 8px;
+}
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+.logotipo {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.quadrado {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+}
+.absoluto {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.quadrado {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+}
+.absoluto {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.relativo {
+  position: relative;
+}
+header {
+  position: relative;
+}
+.menu-opcoes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.sacola {
+  position: absolute;
+  top: 0;
+  right: 0;
   }
-  #rodape{
-    color: #777;
- margin: 30px 0;
- padding: 30px 0;
-  }
-  #rodape img {
-    margin-right: 30px;
-    vertical-align: middle;
-    width: 94px;
-    }
