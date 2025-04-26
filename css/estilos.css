@@ -64,3 +64,15 @@ header {
 .menu-departamentos {
   clear: left;
 }
+.menu-departamentos {
+  text-transform: uppercase;
+}
+.item-menu {
+  text-decoration: none;
+}
+div {
+  border: 2px solid;
+  border: color red;
+  width: 30px;
+  
+}
