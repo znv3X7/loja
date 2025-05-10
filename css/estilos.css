@@ -76,3 +76,13 @@ div {
   width: 30px;
   
 }
+img {
+  width: inherit;
+  height: inherit;
+}
+.busca,
+.menu-departamentos {
+  background-color:#DCDCDC;
+  font-weight: bold;
+  text-transform
+}
